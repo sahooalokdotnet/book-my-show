@@ -1,4 +1,7 @@
 package com.scalar.alok.oops.bookmyshow.models;
 
-public class ShowSeatStatus {
+public enum ShowSeatStatus {
+    AVAILABLE,
+    BOOKED,
+    BLOCKED
 }
